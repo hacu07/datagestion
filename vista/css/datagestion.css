@@ -1,8 +1,14 @@
 
+:root{
+  --col-azul : #007bff!important;
+}
+
 /*falta rst*/
 body{
-	background-color: #D6D6D6;
+	
 }
+
+
 
 #imgLogin{
   width: 30%;
@@ -28,6 +34,63 @@ body{
 	width: 100vw;
 	min-width: 320px;
 	margin: auto;
+}
+
+#zonaHead{
+  width: 100vw;
+  height: 10vh;
+  
+}
+
+#zonaTrabajo{
+  width: 100vw;
+  height: 82vh;
+  overflow: auto;
+  margin: auto;
+}
+
+#zonaFooter{
+  width: 100vw;
+  height: 8vh;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  background-color: var(--col-azul);
+  border: 1px solid var(--col-azul);/*ELIMINAR AL FINAL, SOLO SE USA PARA GUIAS DE LINEA*/
+}
+
+#navbarNavDropdown{
+  background-color: var(--col-azul);;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 2;
+}
+
+#gruposMenu{ 
+  height: 100%;
+  /*border: 1px solid var(--col-azul); */
+}
+
+#gruposMenuNorte{
+  height: 20%;
+  /*border: 1px solid var(--col-azul); */
+  
+}
+
+
+
+#gruposMenuCentro{
+  height: 80%;
+  /*border: 1px solid var(--col-azul); */
+}
+
+#gruposTrabajo{
+  height: 100%;
+  border: 0.5px solid var(--col-azul);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
 }
 
 /****  FORMULARIO LOGIN*/
@@ -81,4 +144,4 @@ div.content h3{
   border-radius: 4px;
   margin-bottom: 20px;
 }
-/**/
+

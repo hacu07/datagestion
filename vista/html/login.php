@@ -37,12 +37,12 @@
 			          <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña" required>
 			        </div>
 			        <!-- CAMBIAR A BOTON -->
-			        <a type="submit" class="btn btn-primary btn-block" href="tarjeta.html">Ingresar</a> 
+			        <a type="submit" class="btn btn-primary btn-block" href="tarjeta.php">Ingresar</a> 
 		      	</form>
 		        <hr />
 		        <div class="row">
-		        	<a href="registro.html" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Registrarme</a>
-		        	<a href="recuperacion.html" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Olvide mi contraseña</a>
+		        	<a href="registro.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Registrarme</a>
+		        	<a href="recuperacion.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Olvidé mi contraseña</a>
 		        </div>
 		    </div>
 

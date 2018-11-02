@@ -36,7 +36,7 @@
 			          <label for="password">Coordenada [X][Y]</label>
 			          <input type="password" class="form-control" id="password" placeholder="Numero de la coordenada"required>
 			        </div>
-			        <button type="submit" class="btn btn-primary btn-block">Validar</button> 
+			        <a type="submit" class="btn btn-primary btn-block" href="inicio.php">Validar</a> 
 		      	</form>
 		        <hr />	        
 		    </div>

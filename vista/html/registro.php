@@ -49,7 +49,7 @@
 		    	</div>
 		      	<hr />
 		        <div class="row">
-		        	<a href="login.html" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Volver a inicio de sesión</a>
+		        	<a href="login.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Volver a inicio de sesión</a>
 		        </div>
 		        
 
