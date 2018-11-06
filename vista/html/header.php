@@ -50,7 +50,7 @@
 					          		@NombreUsuario
 					        	</a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						          <a class="dropdown-item" href="#">Cuenta</a>
+						          <a class="dropdown-item" href="perfil.php">Cuenta</a>
 						          <a class="dropdown-item" href="#">Cerrar Sesión</a>						       
 						        </div>
 					      	</li>
