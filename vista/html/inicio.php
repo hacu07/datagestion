@@ -26,7 +26,7 @@
 					        	</a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						          <a class="dropdown-item" href="grupos.php">Grupos</a>
-						          <a class="dropdown-item" href="#">Importar Excel</a>						      
+						          <a class="dropdown-item" href="importarexcel.php">Importar Excel</a>						      
 						        </div>
 					      	</li>
 					      	<li class="nav-item dropdown">

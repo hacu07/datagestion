@@ -6,7 +6,7 @@
 
 		<title>Datagestion</title>
 		<!--<link rel="icon" href="favicon-32x32.png" type = "image" sizes="32x32">-->
-		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/datagestion.css">
 	</head>
 	<body>
@@ -61,59 +61,59 @@
 		 	</div>
 
 			<!-- Contenedor Trabajo -->
-		 	<div id="zonaTrabajo" class="row">
-		 		<div id="gruposMenu" class="col-xs-12 col-sm-12 col-md-4  col-lg-4 " >
-		 			<div id="gruposMenuNorte" class="d-flex align-items-center justify-content-center">
-		 				<a class="btn btn-block btn-outline-primary" href="grupos.php">Crear grupo de clientes</a>
-		 			</div>
-		 			<div id="gruposMenuCentro" class="col-xs-12 table-responsive">
-		 				<table class="table table-sm">
+		 	<div id="zonaTrabajo">
+		 		<div id="zonaTrabajo" class="row">
+		 		<div id="gruposImportacion" class="col-xs-12 col-sm-12 col-md-4  col-lg-4 " >
+		 			
+	 				<form >
+					  <div class="form-group">
+					    <label for="comboGrupos">Seleccione el grupo a agregar los clientes</label>
+					    <select class="form-control" id="comboGrupos">
+					      <option>Grupo 1</option>
+					      <option>Grupo 2</option>
+					      <option>Grupo 3</option>
+					      <option>Grupo 4</option>
+					      <option>Grupo 5</option>
+					    </select>
+					  </div>
+					  <div class="form-group">
+					    <input type="file" class="form-control" id="exampleInputPassword1">
+					  </div>
+					  
+					  <button type="submit" class="btn btn-outline-primary btn-block">Importar</button>
+					</form>
+		 					 			
+		 		</div>
+
+		 		<div id="gruposTrabajo" class="col-xs-12 col-sm-12 col-md-8 table-responsive">
+		 			<h4 id="tituloTrabajo" class="">Clientes agregados al grupo @NombreGrupoAqui</h4>
+		 			<table class="table table-sm">
 						  <thead>
 						    <tr>						  
 						      <th scope="col">Nombre</th>
-						      <th scope="col">Ver</th>
-						      <th scope="col">Editar</th>
-						      <th scope="col">Eliminar</th>
+						      <th scope="col">Celular</th>
+						      <th scope="col">Correo</th>						     
 						    </tr>
 						  </thead>
 						  <tbody>
 						    <tr>						      
-						      <td>Ibague</td>
-						      <td><a class="btn btn-outline-primary" href="clientesgrupos.php">Ver</a></td>
-						      <td><a class="btn btn-outline-warning" href="editargrupo.php">Editar</a></td>
-						      <td><button class="btn btn btn-outline-danger">Eliminar</button></td>
-						    </tr>						
+						      <td>Juan Diaz</td>
+						      <td>3151234567</td>
+						      <td>jdiaz@mail.com</td>						      
+						    </tr>						    						    
 						  </tbody>
 						</table>
-		 			</div>
 		 		</div>
-
-		 		<div id="gruposTrabajo" class="col-xs-12 col-sm-12 col-md-8  col-lg-8 d-flex align-items-center justify-content-center">
-		 			<div class="col-12">
-		 				<h4 id="tituloTrabajo" class="">Registrar nuevo grupo de clientes</h4>
-		 				<form>
-						  <div class="form-group">
-						    <label for="exampleInputEmail1">Nombre Grupo</label>
-						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese aquí el nombre del grupo">						    
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleInputPassword1">Descripcion</label>
-						    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese aquí la descripción">
-						  </div>
-						  
-						  <button type="submit" class="btn btn-outline-primary btn-block">Crear</button>
-						</form>
-		 			</div>	
-		 		</div>
+		 	</div>
 		 	</div>
 
 		 	<!-- Contenedor Footer -->
 		 	<div id="zonaFooter" >
-		 		<p id="msjAviso" class="navbar-brand">Ubicacion: Grupos</p>
+		 		<p class="navbar-brand">El proceso de carga del archivo puede tardar unos minutos. Por favor espere hasta que se cargue completamente los datos.</p>
 		 	</div>
 		</div>		
 		<script src="../js/jquery-3.3.1.min.js"></script>
-		<script src="../js/bootstrap.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
 		<script src="../js/datagestion.js"></script>		
 	</body>
 </html>	

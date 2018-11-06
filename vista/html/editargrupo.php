@@ -90,18 +90,18 @@
 
 		 		<div id="gruposTrabajo" class="col-xs-12 col-sm-12 col-md-8  col-lg-8 d-flex align-items-center justify-content-center">
 		 			<div class="col-12">
-		 				<h4 id="tituloTrabajo" class="">Registrar nuevo grupo de clientes</h4>
-		 				<form>
+		 				<h4 id="tituloTrabajo" class="">Edición de datos del grupo</h4>
+		 				<form >
 						  <div class="form-group">
 						    <label for="exampleInputEmail1">Nombre Grupo</label>
-						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese aquí el nombre del grupo">						    
+						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese aquí el nombre del grupo" value="@Agregar aquí nombre del grupo">						    
 						  </div>
 						  <div class="form-group">
 						    <label for="exampleInputPassword1">Descripcion</label>
-						    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese aquí la descripción">
+						    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese aquí la descripción" value="@Agregar aquí la descripción del grupo">
 						  </div>
 						  
-						  <button type="submit" class="btn btn-outline-primary btn-block">Crear</button>
+						  <button type="submit" class="btn btn-outline-primary btn-block">Editar</button>
 						</form>
 		 			</div>	
 		 		</div>

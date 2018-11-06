@@ -71,6 +71,11 @@ body{
   /*border: 1px solid var(--col-azul); */
 }
 
+#gruposImportacion{ 
+  /*height: 100%;*/
+  border: 1px solid var(--col-azul); 
+}
+
 #gruposMenuNorte{
   height: 20%;
   /*border: 1px solid var(--col-azul); */
@@ -86,7 +91,12 @@ body{
 
 #gruposTrabajo{
   height: 100%;
-  border: 0.5px solid var(--col-azul);
+  padding: 3%;
+  border: 0.1px solid var(--col-azul);
+}
+
+#tituloTrabajo{
+  text-align: center;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -143,5 +153,11 @@ div.content h3{
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 20px;
+}
+
+
+.navbar-brand{
+  padding: 0;
+  margin: 0;
 }
 
