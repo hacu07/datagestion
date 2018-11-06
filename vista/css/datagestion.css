@@ -8,12 +8,18 @@ body{
 	
 }
 
-
+table{
+  text-align: center;
+}
 
 #imgLogin{
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
+}
+
+#frmReporte{
+  padding: 1%;
 }
 
 #form #form_header{
@@ -26,6 +32,10 @@ body{
 
 #form #form_body{
   padding: 40px;
+}
+
+#frmCreaNotificacion{
+  padding: 2%;
 }
 
 #contenedor{
@@ -73,13 +83,18 @@ body{
 
 #gruposImportacion{ 
   /*height: 100%;*/
-  border: 1px solid var(--col-azul); 
+ /* border: 1px solid var(--col-azul); */
 }
 
 #gruposMenuNorte{
   height: 20%;
   /*border: 1px solid var(--col-azul); */
   
+}
+
+#MenuReportes{
+  height: 100%;
+  overflow: auto;
 }
 
 
@@ -92,11 +107,16 @@ body{
 #gruposTrabajo{
   height: 100%;
   padding: 3%;
-  border: 0.1px solid var(--col-azul);
+  overflow: auto;
+ /* border: 0.1px solid var(--col-azul);*/
 }
 
 #tituloTrabajo{
   text-align: center;
+}
+
+#contListadoNotificaciones{
+  padding: 2%;
 }
 
 .navbar-dark .navbar-nav .nav-link{
