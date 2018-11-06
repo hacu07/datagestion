@@ -43,7 +43,7 @@
 					        	<a class="nav-link navbar-brand " href="reportes.php">Reportes</a>
 					      	</li>
 					      	<li class="nav-item">
-					        	<a class="nav-link navbar-brand" href="#">Paquetes</a>
+					        	<a class="nav-link navbar-brand" href="mispaquetes.php">Paquetes</a>
 					      	</li>
 					      	<li class="nav-item dropdown">
 					       		<a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -34,11 +34,11 @@
 		 				<form>
 						  <div class="form-group">
 						    <label for="exampleInputEmail1">Nombre Grupo</label>
-						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese aquí el nombre del grupo">						    
+						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese aquí el nombre del grupo" required>						    
 						  </div>
 						  <div class="form-group">
 						    <label for="descripcion">Descripción</label>
-						    <textarea class="form-control" id="descripcion" rows="3" placeholder="Ingrese aquí la descripción del grupo"></textarea>
+						    <textarea class="form-control" id="descripcion" rows="3" placeholder="Ingrese aquí la descripción del grupo" required></textarea>
 						  </div>
 						  <button type="submit" class="btn btn-outline-primary btn-block">Crear</button>
 						</form>
