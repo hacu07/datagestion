@@ -51,7 +51,7 @@
 					        	</a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						          <a class="dropdown-item" href="perfil.php">Cuenta</a>
-						          <a class="dropdown-item" href="#">Cerrar Sesión</a>						       
+						          <a class="dropdown-item" href="login.php">Cerrar Sesión</a>						       
 						        </div>
 					      	</li>
 				    	</ul>

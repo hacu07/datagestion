@@ -39,17 +39,17 @@
 						        </div>
 					      	</li>
 					      	<li class="nav-item">
-					        	<a class="nav-link navbar-brand " href="#">Medios</a>
+					        	<a class="nav-link navbar-brand " href="gestionmedios.php">Medios</a>
 					      	</li>
 					      	<li class="nav-item">
-					        	<a class="nav-link navbar-brand" href="#">Reportes</a>
+					        	<a class="nav-link navbar-brand" href="reportesadmin.php">Reportes</a>
 					      	</li>
 					      	<li class="nav-item dropdown">
 					       		<a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					          		@NombreAdmin
 					        	</a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						          <a class="dropdown-item" href="#">Cerrar Sesión</a>						       
+						          <a class="dropdown-item" href="login.php">Cerrar Sesión</a>						       
 						        </div>
 					      	</li>
 				    	</ul>

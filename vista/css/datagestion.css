@@ -142,6 +142,11 @@ label{
   margin-top: 2%;
 }
 
+#buscarTelefono{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .navbar-dark .navbar-nav .nav-link{
   color: #fff;
 }

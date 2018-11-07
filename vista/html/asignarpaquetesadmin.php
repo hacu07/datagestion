@@ -1,4 +1,4 @@
-<?php require_once 'header.php'; ?>
+<?php require_once 'headeradmin.php'; ?>
 
 			<!-- Contenedor Trabajo -->
 		 	<div id="zonaTrabajo" class="row">

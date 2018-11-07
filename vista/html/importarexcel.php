@@ -17,7 +17,7 @@
 					    </select>
 					  </div>
 					  <div class="form-group">
-					    <input type="file" class="form-control" id="exampleInputPassword1">
+					    <input type="file" class="form-control btn-primary" id="exampleInputPassword1">
 					  </div>
 					  
 					  <button type="submit" class="btn btn-outline-primary btn-block">Importar</button>
