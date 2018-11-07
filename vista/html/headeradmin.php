@@ -35,7 +35,7 @@
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						        	<a class="dropdown-item" href="paquetesadmin.php">Ver</a>
 						          	<a class="dropdown-item" href="crearpaqueteadmin.php">Crear</a>
-						          	<a class="dropdown-item" href="#">Asignar a empresa</a>
+						          	<a class="dropdown-item" href="asignarpaquetesadmin.php">Asignar a empresa</a>
 						        </div>
 					      	</li>
 					      	<li class="nav-item">

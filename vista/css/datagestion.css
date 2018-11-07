@@ -110,11 +110,24 @@ label{
   /*border: 1px solid var(--col-azul); */
 }
 
+
+
 #gruposTrabajo{
   height: 100%;
   padding: 0;
   overflow: auto;
  /* border: 0.1px solid var(--col-azul);*/
+}
+
+#asignarMenuNorte{
+  height: 30%;
+  /*border: 1px solid var(--col-azul); */
+  
+}
+
+#asignarMenuCentro{
+  height: 70%;
+  /*border: 1px solid var(--col-azul); */
 }
 
 #tituloTrabajo{
@@ -123,6 +136,10 @@ label{
 
 #contListadoNotificaciones{
   padding: 2%;
+}
+
+#btnCancelar{
+  margin-top: 2%;
 }
 
 .navbar-dark .navbar-nav .nav-link{
