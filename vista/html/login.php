@@ -41,7 +41,7 @@
 		      	</form>
 		        <hr />
 		        <div class="row">
-		        	<a href="registro.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Registrarme</a>
+		        	<a href="index.php?accion=registro" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Registrarme</a>
 		        	<a href="recuperacion.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Olvidé mi contraseña</a>
 		        </div>
 		    </div>

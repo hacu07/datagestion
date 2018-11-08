@@ -6,6 +6,7 @@ require_once("controlador/controlador.php");
 require_once("modelo/conexion.php");
 require_once("modelo/gestor.php");
 /*Clases VO*/
+require_once("modelo/usuario.php");
 
 $controlador = new Controlador();
 
@@ -49,10 +50,12 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["id"]) && isset($_SESSION["rol
 else{//Si no se ha iniciado sesion
 	if (isset($_GET["accion"])) {//Si se ha enviado un valor por accion usando el metodo GET
 		switch ($_GET["accion"]) {
-			/*case '':
-				
-				break;*/
-			
+			case 'registro':
+				$controlador->verPagina("vista/html/registro.php");
+				break;
+			case 'registrar':
+				$controlador->registrar($_POST["nombre"],$_POST["correo"],$_POST["celular"],$_POST["direccion"]);
+				break;
 			default:
 				$controlador->verPagina("vista/html/login.php");
 				break;

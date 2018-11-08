@@ -6,8 +6,8 @@
 
 		<title>Datagestion</title>
 		<!--<link rel="icon" href="favicon-32x32.png" type = "image" sizes="32x32">-->
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/datagestion.css">
+		<link rel="stylesheet" href="vista/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="vista/css/datagestion.css">
 	</head>
 	<body>
 		<div id="contenedor">
@@ -18,25 +18,25 @@
 		    		<h3>Registro</h3>
 		    	</div>
 		    	<div id="form_body">
-		    		<form>
+		    		<form action="index.php?accion=registrar" method="post">
 		    			<div class="form-group">
 				          <label for="nombre">Nombre Completo</label>
-				          <input type="text" class="form-control" id="nombre" placeholder="Nombres y apellidos" required>
+				          <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Nombres y apellidos" required>
 				        </div>
 				      	<div class="form-group">
 				          <label for="usuario">Correo Electrónico</label>
-				          <input type="email" class="form-control" id="usuario" placeholder="Correo electrónico valido" required aria-describedby="correoEnvio">
+				          <input name="correo" type="email" class="form-control" id="usuario" placeholder="Correo electrónico valido" required aria-describedby="correoEnvio">
 							<small id="correoEnvio" class="form-text text-muted">
 							  Envio de contraseña a esta dirección.
 							</small>
 				        </div>
 				        <div class="form-group">
 				          <label for="celular">Celular</label>
-				          <input type="number" class="form-control" id="celular" placeholder="Numero de celular" required>
+				          <input name="celular" type="number" class="form-control" id="celular" placeholder="Numero de celular" required>
 				        </div>
 				        <div class="form-group">
 				          <label for="direccion">Dirección</label>
-				          <input type="text" class="form-control" id="direccion" placeholder="Dirección de residencia" required>
+				          <input name="direccion" type="text" class="form-control" id="direccion" placeholder="Dirección de residencia" required>
 				        </div>
 				        <div class="form-check form-group">
 						  <input class="form-check-input " type="checkbox" value="" id="chbTerCon" checked required>
@@ -44,7 +44,7 @@
 						    Acepto <a href="#">Terminos y Condiciones</a>
 						  </label>
 						</div>
-				        <button type="submit" class="btn btn-primary btn-block">Registrar</button> 
+				        <input type="submit" class="btn btn-primary btn-block" value="Registrarte">
 		      		</form>
 		    	</div>
 		      	<hr />
@@ -52,13 +52,12 @@
 		        	<a href="login.php" class="btn col-xs-12 col-sm-12 col-md-12 col-lg-12">Volver a inicio de sesión</a>
 		        </div>
 		        
-
 		    </div>
 
 <!---->
 		</div>		
-		<script src="../js/jquery-3.3.1.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/datagestion.js"></script>		
+		<script src="vista/js/jquery-3.3.1.min.js"></script>
+		<script src="vista/js/bootstrap.min.js"></script>
+		<script src="vista/js/datagestion.js"></script>		
 	</body>
 </html>	
