@@ -6,8 +6,8 @@
 
 		<title>Datagestion</title>
 		<!--<link rel="icon" href="favicon-32x32.png" type = "image" sizes="32x32">-->
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/datagestion.css">
+		<link rel="stylesheet" href="vista/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="vista/css/datagestion.css">
 	</head>
 	<body>
 		<div id="contenedor">
@@ -48,8 +48,8 @@
 
 <!---->
 		</div>		
-		<script src="../js/jquery-3.3.1.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/datagestion.js"></script>		
+		<script src="vista/js/jquery-3.3.1.min.js"></script>
+		<script src="vista/js/bootstrap.min.js"></script>
+		<script src="vista/js/datagestion.js"></script>		
 	</body>
 </html>	
