@@ -39,9 +39,9 @@ class Controlador {
 		
 
 		$gestor = new Gestor();
-		//variable que obtiene la respuesta de la ejecucion de la sentencia
+		//variable que obtiene la respuesta de la ejecucion de la sentencia donde se almacenan los datos del usuario y se genera la tarjeta de coordenadas 
 
-		//Si fue exitosa la insercion de los datos del usuario, se envia la contraseña generada al correo del usuario
+		//Si fue exitosa la insercion de los datos del usuario, se envia la contraseña generada al correo del usuario y la tarjeta de coordenadas
 		//Enviar Correo con contraseña
 	}
 
